@@ -1,0 +1,154 @@
+body[data-dir="rtl"]{
+    .deebo_fn_switcher_wrap{
+        left: 50px;
+        right: auto !important;
+    }
+    .cv__header{
+        direction: rtl;
+        .in{
+            h3{
+                span{
+                    float: right;
+                    margin-left: 13px;
+                }
+            }
+            .quote{
+                border-right: 3px solid var(--mc);
+                border-left: none !important;
+                border-radius: 5px 0 0 5px !important;
+                text-align: right !important;
+            }
+            ul.contact_info{
+                li{
+                    span.icon{
+                        margin-right: 0 !important;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .cv__content{
+        .section_header .content .left_hero_header{
+            padding-right: 0;
+            padding-left: 80px;
+            .circle{
+                .bg_img{
+                    background-position: top;
+                }
+            }
+        }
+
+        .my_self h4{
+            font-family: 'iransans',calibri;
+        }
+        .my_self h2{
+            font-family: 'yekan',calibri;
+        }
+
+        & > section{
+            p{
+                font-family: vazir;
+            }
+            direction: rtl;
+            .section_title h3{
+                font-family: iransans,calibri;
+            }
+            .section_title h3:after{
+                right: 0;
+                left: auto !important;
+            }
+            .fn_cs_info_items{
+                ul{
+                    margin-right: -10px;
+                    margin-left: 0 !important;
+                    li{
+                        margin: 0 10px 10px 0 !important;
+                        font-family: vazir,calibri;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .fn_cs_boxed_list .item{
+                .item_top{
+                    h5{
+                        font-family: vazir;
+                    }
+                    span{
+                        font-family: yekan;
+                    }
+                }
+                h3{
+                    font-family: yekan;
+                }
+            }
+            ul{
+                li{
+                    .item{
+                        &::after{
+                            right: 0;
+                            left: auto !important;
+                        }
+                        .item_top{
+                            span{
+                                margin-right:20px;
+                                margin-left: 0 !important;
+                            }
+                        }
+                        .item_left{
+                            &::after{
+                                right: 0;
+                                left: auto !important;
+                            }
+                            h3{
+                                font-family: yekan;
+                            }
+                            p{
+                                font-family: vazir;
+                                font-size: 16px;
+                            }
+                        }
+                        .item_right{
+                            border-left: none !important;
+                            border-right: 1px solid rgba(0,0,0,0.05);
+                            p{
+                                font-family: vazir;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .progress_title{
+            direction: ltr;
+            font-family: vazir, calibri;
+        }
+        .fn_cs_portfolio{
+            .portfolio_filter ul li{
+                a{
+                    font-family: vazir;
+                    margin-left: 15px;
+                    font-size: 18px;
+                }
+            }
+            .mobile_title{
+                h3{
+                    font-family: iransans, calibri;
+                }
+                span{
+                    font-family: vazir, calibri;
+                }
+            }
+        }
+        .contact_form{
+            input,textarea{
+                font-family: 'vazir',calibri;
+                font-size: 15px;
+            }
+            font-family: 'iransans',calibri;
+        }
+    }
+}
